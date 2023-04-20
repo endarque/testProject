@@ -11,7 +11,7 @@ app = Flask(__name__, template_folder=template_dir)
 
 @app.route('/')
 def main():
-    return render_template('main.html')
+    return 'Test Address Hello World!!!'
 
 @app.route('/test')
 def test():
