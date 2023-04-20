@@ -15,7 +15,7 @@ def main():
 
 @app.route('/main2')
 def main2():
-    return 'Test Address Hello World!!!!!!~~~~ HI!!!!'
+    return 'Test Address Hello World!!!!!!~~~~ HI.!!!!'
 
 @app.route('/test')
 def test():
