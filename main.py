@@ -13,6 +13,10 @@ app = Flask(__name__, template_folder=template_dir)
 def main():
     return 'Test Address Hello World!!!'
 
+@app.route('/main2')
+def main2():
+    return 'Test Address Hello World!!!!!!~~~~ HI!!!!'
+
 @app.route('/test')
 def test():
     return render_template('main.html')
